@@ -16,3 +16,6 @@ vendor/
 
 # Built project
 tmp/
+
+# Environments
+.env
