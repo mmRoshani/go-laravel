@@ -24,7 +24,8 @@ func initApplication() *application {
 
 	glp.AppName = "go-laravel"
 	glp.Description = "Golang laravel based web framework."
-	glp.Debug = true
+
+	glp.InfoLog.Println("Debug flag is set to:", glp.Debug)
 
 	// initializing app
 
